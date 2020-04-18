@@ -1,0 +1,209 @@
+
+
+.content {
+}
+
+
+
+.content-image {
+    width:100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    
+
+}
+
+.content-image video {
+    width: 100%;
+    padding-bottom: 4%;
+
+
+ 
+}
+
+.content-image img {
+    margin:0;
+    padding:4% 0;
+}
+
+.content-image img.l {
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.content-image img.m {
+    width:80%;
+    max-width:1280px;
+            padding:3% 1%;
+
+}
+
+.content-image img.n {
+    width:100%;
+    
+        padding:2% 1%;
+    
+}
+
+.content-image img.o {
+    width:100%;
+    max-width:510px;
+        padding:0 1%;
+}
+
+.content-image img.p {
+    width: 30%;
+        padding:0 1%;
+}
+
+
+.content-block-bg-1 {
+    background:#f4f4f4;
+}
+
+
+
+
+
+
+.p5js {  
+    height:100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.p5js section {
+    transition: 0.5s;
+}
+
+.p5js-image section h3 {
+    color: black;
+    font-size:1.7rem;
+    
+}
+
+
+.p5js-image {
+    justify-content: center;
+    align-items: center;
+    animation: bgcolor infinite 2s;
+
+
+}
+
+
+@keyframes bgcolor{
+    0%
+    {
+        background: orange;
+    }
+        20%
+    {
+        background: orange;
+    }
+        40%
+    {
+        background:#001ef8;
+    }
+        60%
+    {
+        background:  #001ef8;
+    }
+        80%
+    {
+        background: #e900f8 ;
+    }
+     100%
+    {
+        background: #e900f8 ;
+    }
+}
+    
+
+.p5js-image section {
+    background-color: ;
+/*    margin:0vh auto;*/
+    max-width:1500px;
+    padding: 20px 30px 35px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* *************************************** */
+/* content-specific media queries          */
+/* *************************************** */
+
+
+/* 1 mobile-portrait */
+@media only screen 
+and (orientation : portrait) 
+and (min-device-width: 414px) {
+    .content {
+        padding:8% 10%;
+    }
+    
+  
+    .content-image img.p {
+    width:10%;
+    
+}
+   
+    
+  }
+
+
+/* 2 mobile-landscape */  
+@media only screen 
+and (orientation : landscape) 
+and (min-width: 800px) { 
+    .content {
+        padding:4% 20%;
+    }
+    
+     .content-image img.p {
+    width:29%;
+    
+}
+    
+    
+  }
+
+
+/* 3 desktop */
+@media only screen 
+and (max-width: 1280px) { 
+    .content {
+        padding:4% 20%;
+    }
+    
+    .content-image img.p {
+    width: 30%;
+    
+}
+    
+      .content-image img.n {
+    width:48%;
+    
+}
+    
+
+
+
+

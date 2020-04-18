@@ -1,0 +1,159 @@
+
+*, html {
+    font-family: 'Arial', sans-serif;
+    font-size:100%;
+    
+}
+
+
+h1, h2, h3, h4, h5, h6, h7{
+    font-family: 'Georgia', sans-serif;
+    font-size:2rem;
+    color: floralwhite
+}
+
+h1 {color: yellow
+}
+
+h3 {
+    letter-spacing: 0px;
+    text-transform:uppercase;
+    font-size:1.0rem;
+    color: cyan;
+}
+
+
+h4 {
+  
+    letter-spacing: 0px;
+    text-transform:uppercase;
+    font-size:1.25rem;
+    color: floralwhite;
+    font-weight: 300;
+    
+}
+
+
+
+p {
+    letter-spacing: 0.15px;
+    line-height:1.5;    
+    max-width:700px;
+    font-weight:300;
+    color: floralwhite;
+
+
+}
+
+
+
+strong {
+    font-weight:bold;
+}
+
+
+a, 
+a:link, 
+a:visited {
+    color: springgreen;
+    text-decoration: none;
+    border-bottom:1px solid springgreen;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: fuchsia;
+    border-bottom:1px solid fuchsia;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    font-size:1.3rem;
+    font-weight:300;
+    line-height: 1.75;
+}
+
+ul {
+    padding:0 0;
+    width:100%;`
+}
+
+
+/* classes */
+
+.main {
+    margin:auto;
+    padding:0;
+}
+
+
+.footer {
+    color: black;
+    padding:4% 10%;
+    height:100px;
+    width:80%;
+
+    
+}
+
+.footer p {    
+    font-family: 'Georgia', sans-serif;
+    font-size: 1.0rem;
+    line-height: 1.25;
+    color: fuchsia
+}
+
+
+
+/* *************************************** */
+/* main-specific media queries          */
+/* *************************************** */
+
+
+/* media queries 
+    * 1. Portrait format, iPhone
+    * 2. Landscape format, phone
+    * 3. Desktop screen 
+    * phone sizes: 
+    * https://stackoverflow.com/questions/52321212/iphone-xr-xs-xs-max-css-media-queries
+   */
+
+
+/* 1 mobile-portrait */
+@media only screen 
+and (orientation : portrait) 
+and (min-device-width: 414px) {
+    p {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+      font-size: 0.7rem;
+    }
+
+  }
+
+
+/* 2 mobile-landscape */  
+@media only screen 
+and (orientation : landscape) 
+and (min-width: 800px) { 
+    
+    h2 {
+      font-size: 0.75rem;
+    }
+  }
+
+
+/* 3 desktop */
+@media only screen 
+and (min-width: 1280px) { 
+    h3 {
+      font-size: 1.25rem;
+    }
+  }
+
+
+

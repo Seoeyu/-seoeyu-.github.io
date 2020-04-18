@@ -1,0 +1,32 @@
+
+#sticky #live-project,
+#sticky #project-title {
+    margin:0;
+    padding:10px;
+    position:fixed;
+    color:#fff;
+    top:50%;
+    text-align:center;
+    transform-origin: center left;
+    font-size: 1rem;
+    font-weight:100;
+    color: lightgrey;
+}
+#sticky #live-project {
+    left:0px;
+    transform: translateX(10%) rotate(-90deg);
+}
+
+#sticky #project-title {
+    right:10px;
+    transform: translateX(90%) rotate(90deg);
+}
+
+/* <i> Index </i>
+<a href="#summary">Summary </a>
+<a href="#artefact">Artefact </a>
+<a href="#Case Study">Case Study </a>
+
+<a name="summary">Summary </a>
+<a name="artefact">Artefact </a>
+<a name="Case Study">Case Study </a>
